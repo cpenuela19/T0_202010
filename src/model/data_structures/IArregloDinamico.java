@@ -41,6 +41,6 @@ public interface IArregloDinamico <T extends Comparable<T>> {
 	 * @param dato Objeto de eliminacion en el arreglo
 	 * @return dato eliminado
 	 */
-	String eliminar( String dato );
+	T eliminar( T dato );
 
 }
